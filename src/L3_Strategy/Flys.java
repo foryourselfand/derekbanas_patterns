@@ -1,4 +1,4 @@
-package Strategy;
+package L3_Strategy;
 
 // The interface is implemented by many other
 // subclasses that allow for many types of flying

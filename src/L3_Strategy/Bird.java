@@ -1,4 +1,4 @@
-package Strategy;
+package L3_Strategy;
 
 public class Bird extends Animal {
 
