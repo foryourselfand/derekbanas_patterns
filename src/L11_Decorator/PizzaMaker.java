@@ -2,7 +2,7 @@ package L11_Decorator;
 
 public class PizzaMaker {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // The PlainPizza object is sent to the Mozzarella constructor
         // and then to the TomatoSauce constructor

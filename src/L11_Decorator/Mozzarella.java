@@ -14,13 +14,13 @@ public class Mozzarella extends ToppingDecorator {
     // Returns the result of calling getDescription() for
     // PlainPizza and adds " mozzarella" to it
 
-    public String getDescription(){
+    public String getDescription() {
 
         return tempPizza.getDescription() + ", mozzarella";
 
     }
 
-    public double getCost(){
+    public double getCost() {
 
         System.out.println("Cost of Moz: " + .50);
 
