@@ -49,26 +49,23 @@ public class Singleton {
                 }
             }
 
-            firstInstance = new Singleton();
-            Collections.shuffle(firstInstance.letterList);
-
             // Here we just use synchronized when the first object
             // is created
 
-//            synchronized (Singleton.class) {
-//
-//                if (firstInstance == null) {
-//                    // If the instance isn't needed it isn't created
-//                    // This is known as lazy instantiation
-//
-//                    firstInstance = new Singleton();
-//
-//                    // Shuffle the letters in the list
-//                    Collections.shuffle(firstInstance.letterList);
-//
-//                }
-//
-//            }
+            synchronized (Singleton.class) {
+
+                if (firstInstance == null) {
+                    // If the instance isn't needed it isn't created
+                    // This is known as lazy instantiation
+
+                    firstInstance = new Singleton();
+
+                    // Shuffle the letters in the list
+                    Collections.shuffle(firstInstance.letterList);
+
+                }
+
+            }
 
         }
 
