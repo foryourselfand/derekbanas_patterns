@@ -1,4 +1,6 @@
-package L12_Command;
+package L12_Command.Commands;
+
+import L12_Command.Receivers.ElectronicDevice;
 
 public class TurnTVOn implements Command {
 

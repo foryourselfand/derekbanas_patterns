@@ -1,4 +1,4 @@
-package L12_Command;
+package L12_Command.Receivers;
 
 public interface ElectronicDevice {
     public void on();

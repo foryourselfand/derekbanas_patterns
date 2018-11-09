@@ -1,4 +1,4 @@
-package L12_Command;
+package L12_Command.Receivers;
 
 public class Television implements ElectronicDevice {
     private int volume = 0;

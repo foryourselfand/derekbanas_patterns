@@ -1,5 +1,14 @@
 package L12_Command;
 
+import L12_Command.Commands.TurnItAllOff;
+import L12_Command.Commands.TurnTVOff;
+import L12_Command.Commands.TurnTVOn;
+import L12_Command.Commands.TurnTVUp;
+import L12_Command.Invoker.DeviceButton;
+import L12_Command.Receivers.ElectronicDevice;
+import L12_Command.Receivers.Radio;
+import L12_Command.Receivers.Television;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +17,7 @@ public class PlayWithRemote {
     public static void main(String[] args) {
 
         // Gets the ElectronicDevice to use
-        ElectronicDevice newDevice = TVRemote.getDevice();
+        ElectronicDevice newDevice = new Television();
 
         // TurnTVOn contains the command to turn on the tv
         // When execute() is called on this command object

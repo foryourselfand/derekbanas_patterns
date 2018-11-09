@@ -1,4 +1,4 @@
-package L12_Command;
+package L12_Command.Invoker;
 
 // This is known as the invoker
 // It has a method press() that when executed
@@ -7,6 +7,8 @@ package L12_Command;
 // The execute method for the Command interface then calls
 // the method assigned in the class that implements the
 // Command interface
+
+import L12_Command.Commands.Command;
 
 public class DeviceButton {
     Command theCommand;

@@ -1,4 +1,4 @@
-package L12_Command;
+package L12_Command.Commands;
 
 // Each command you want to issue will implement
 // the Command interface
