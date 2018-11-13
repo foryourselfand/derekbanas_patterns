@@ -1,6 +1,6 @@
-package L20_State.States;
+package L20_21_State_Proxy.States;
 
-import L20_State.ATMMachine;
+import L20_21_State_Proxy.ATMMachine;
 
 public class HasPin implements ATMState {
     ATMMachine atmMachine;

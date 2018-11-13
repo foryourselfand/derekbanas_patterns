@@ -1,4 +1,4 @@
-package L20_State.States;
+package L20_21_State_Proxy.States;
 
 public interface ATMState {
     // Different states expected

@@ -1,8 +1,8 @@
-package L20_State;
+package L20_21_State_Proxy;
 
-import L20_State.States.*;
+import L20_21_State_Proxy.States.*;
 
-public class ATMMachine {
+public class ATMMachine implements GetATMData{
     public int cashInMachine = 2000;
     public boolean correctPinEntered = false;
     ATMState hasCard;
@@ -63,4 +63,13 @@ public class ATMMachine {
         return atmOutOfMoney;
     }
 
+    @Override
+    public ATMState getATMState() {
+        return atmState;
+    }
+
+    @Override
+    public int getCashInMachine() {
+        return cashInMachine;
+    }
 }
