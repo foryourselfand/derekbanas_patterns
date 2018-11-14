@@ -8,8 +8,8 @@ public abstract class EnemyShip {
     // Newly defined objects that represent weapon & engine
     // These can be changed easily by assigning new parts
     // in UFOEnemyShipFactory or UFOBossEnemyShipFactory
-    ESWeapon weapon;
-    ESEngine engine;
+    public ESWeapon weapon;
+    public ESEngine engine;
     private String name;
 
     public String getName() {
